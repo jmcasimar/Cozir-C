@@ -351,6 +351,7 @@ void COZIR::_command(const char* str)
 {
   _ser->print(str);
   _ser->print("\r\n");
+  _ser->flush();
 }
 
 
