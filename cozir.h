@@ -74,7 +74,7 @@ public:
   float    light();
   uint32_t CO2();
   uint16_t getPPMFactor();   // P14 . command  return 1, 10 or 100
-
+  uint32_t getAltitude();    // Return altitude code
 
   //  CALIBRATION
   //  read datasheet before use

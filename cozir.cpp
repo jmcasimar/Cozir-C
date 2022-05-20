@@ -125,6 +125,11 @@ uint16_t COZIR::getPPMFactor()
   return _ppmFactor;
 }
 
+uint32_t COZIR::getAltitude()
+{
+  return _request("s");
+}
+
 // CALLIBRATION - USE THESE WITH CARE
 // use these only in polling mode (on the Arduino)
 
